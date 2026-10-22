@@ -5,8 +5,8 @@ import com.minicrm.Mini_crm.service.ContactService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
-
 @RestController
+
 @RequestMapping("/api/contacts")
 public class ContactController {
     private final ContactService contactService;
